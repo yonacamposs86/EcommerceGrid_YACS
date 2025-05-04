@@ -1,0 +1,146 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 2180px;    
+    margin: 0;
+    padding: 1rem 3rem;
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;    
+    background-position: center;
+}
+
+
+header {
+    background-color: black;
+    opacity: 50%;
+    color: aliceblue;
+    border: solid 2px grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+aside {
+    border: solid 2px grey;
+    background-color: black;
+    opacity: 50%;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+
+
+}
+
+h2{
+    font-size: 36px;
+}
+
+
+li {
+    list-style-type: none;
+    font-size: 36px;
+    padding: 24px;    
+
+}
+
+main {
+
+    border: solid 2px grey;
+    background-color: black;
+    opacity: 90%;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+footer {
+    border: solid 2px grey;
+    color: antiquewhite;
+    font-size: 36px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.display-container {
+
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'aside main'
+        'footer footer';
+
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.card-1>img {
+    width: 20rem;
+
+}
+
+.card-2>img {
+    width: 13rem;
+
+}
+
+.card-3>img {
+    width: 13rem;
+
+}
+
+.card-4>img {
+    width: 17rem;
+
+}
+
+button {
+
+    background-color: #833AB4;
+    background: linear-gradient(145deg, rgb(195, 240, 200), rgb(80, 155, 245));
+    border: none;
+    color: black;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+
+}
+
